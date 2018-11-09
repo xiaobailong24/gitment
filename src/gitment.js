@@ -99,7 +99,7 @@ class Gitment {
       }, options)
 
       this.state.user.isLoggingIn = true
-      http.post('https://xiaobailong24.me:3000', {
+      http.post('https://bak.smalbox.club', {
           code,
           client_id,
           client_secret,
