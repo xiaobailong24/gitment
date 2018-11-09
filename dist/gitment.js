@@ -124,7 +124,7 @@ var Gitment = function () {
       }, options);
 
       this.state.user.isLoggingIn = true;
-      _utils.http.post('https://bak.smalbox.club', {
+      _utils.http.post('https://xiaobailong24.me:3000', {
         code: code,
         client_id: client_id,
         client_secret: client_secret
